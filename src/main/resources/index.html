@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Events & Seminars</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h1>Campus Events, Workshops & Seminars</h1>
+    <nav id="filters">
+        <button data-cat="All" class="active">All</button>
+        <button data-cat="Event">Events</button>
+        <button data-cat="Workshop">Workshops</button>
+        <button data-cat="Seminar">Seminars</button>
+    </nav>
+</header>
+
+<main id="grid"></main>
+
+<dialog id="modal">
+    <h2 id="mTitle"></h2>
+    <p id="mMeta"></p>
+    <p id="mDesc"></p>
+    <button id="closeBtn">Close</button>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
